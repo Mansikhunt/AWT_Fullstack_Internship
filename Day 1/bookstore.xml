@@ -1,0 +1,26 @@
+<bookstore>
+<book category="Story book">
+<title lang="en">The India Story</title>
+<auther>Bimal Jalal</auther>
+<year>2022</year>
+<price>350</price>
+</book>
+<book category="History">
+<title lang="en">The Last Mughal</title>
+<auther>William Dalrymple</auther>
+<year>2006</year>
+<price>400</price>
+</book>
+<book category="Cooking">
+<title lang="en">The Flavor Bible</title>
+<auther>Karen A. Page</auther>
+<year>2008</year>
+<price>150</price>
+</book>
+<book category="Health">
+<title lang="en">Why We Sleep</title>
+<auther>Matthew Walker</auther>
+<year>2017</year>
+<price>250</price>
+</book>
+</bookstore>
