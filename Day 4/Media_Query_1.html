@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Demo|Media</title>
+        <style>
+            .d1{
+                height: 300px;
+                width: 300px;
+                background-color: red;
+            }
+            @media(min-width:768px){
+                .d1{
+                    width: 150px;
+                    height: 150px;
+                    background-color: pink;
+                }
+            }
+            @media(min-width:992px){
+                .d1{
+                    width: 20px;
+                    height: 80px;
+                    background-color: aqua;
+                }
+            }
+            @media(min-width:1200px){
+                .d1{
+                    width: 20%;
+                    height: 20%;
+                    background-color:green;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="d1"></div>
+    </body>
+</html>
