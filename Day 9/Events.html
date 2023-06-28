@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script type="text/javascript" src="Events.js"></script>
+    <style type="text/css">
+        button{cursor:pointer;}
+    </style>
+</head>
+<body>
+    <button onclick="demoonclick()">Click Event</button><hr/>
+
+    <button ondblclick="demoondblclick()">Double Click Event</button><hr/>
+
+    <b>Focus:</b><br/>
+    <input type="text" placeholder="Focus Event Demo" id="txtfocus" onfocus="demoonfocus()"><hr/>
+
+    <b>Blur:</b><br/>
+    <input type="text" placeholder="Blur Event Demo" id="txtblur" onblur="demoonblur()"><hr/>
+
+    <b>Keypress:</b><br/>
+    <input type="text" placeholder="Keypress Event Demo" id="txtkeypress" onkeypress="demoonkeypress()"><hr/>
+
+    <b>Keyup:</b><br/>
+    <input type="text" placeholder="Keyup Event Demo" id="txtkeyup" onkeyup="demoonkeyup()"><hr/>
+
+    
+</body>
+</html>
